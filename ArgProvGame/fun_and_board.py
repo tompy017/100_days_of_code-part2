@@ -28,7 +28,6 @@ class Board(Turtle):
 
     def list_missing(self, all_provinces: list):
         """Returns a list of all missing provinces."""
-        for province in all_provinces:
-            if province not in self.correct_answers:
-                self.missing_provinces.append(province)
+        self.missing_provinces = [province for province in all_provinces
+                                  if province not in self.correct_answers]
         return self.missing_provinces
