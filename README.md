@@ -15,4 +15,8 @@ Enter a word and you will get back the official NATO spelling codes for each let
 
 ---
 ## Project #20
-### <u></u>
+### <u>Miles to Kilometers Converter</u>
+
+A GUI program made with tkinter module.<br>
+The aim of this program is to convert to kilometer a lenght given in miles.
+It's a very simple design but it's efficient :)
